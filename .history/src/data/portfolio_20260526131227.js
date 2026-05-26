@@ -80,7 +80,7 @@ export const projects = [
     'Integrated contact form using EmailJS for direct communication',
   ],
   stack: ['React.js', 'Tailwind CSS', 'JavaScript', 'EmailJS'],
-  github: 'https://github.com/kuljeetsinhparmar/Portfolio',
+  github: 'YOUR_GITHUB_LINK',
   demo: 'https://portfolio-taupe-eta-rhgrfm9mho.vercel.app/',
   honest:
     'This project helped me improve my frontend development skills, UI design understanding, responsive layouts, and component structuring in React.',
