@@ -1,0 +1,100 @@
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+  align-items: start;
+  margin-top: 40px;
+}
+
+.about-text p {
+  font-size: 0.98rem;
+  color: var(--muted);
+  line-height: 1.82;
+  margin-bottom: 14px;
+}
+
+.about-links {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+/* Cards */
+.about-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.about-stat-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  padding: 18px;
+  transition: all 0.2s ease;
+}
+
+.about-stat-card:hover {
+  border-color: var(--border-a);
+  background: var(--card-h);
+  transform: translateY(-2px);
+}
+
+.asc-val {
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: #fff;
+  line-height: 1;
+  color: var(--accent-b);
+}
+
+.asc-label {
+  font-family: var(--fm);
+  font-size: 0.62rem;
+  letter-spacing: 0.11em;
+  color: var(--muted);
+  margin-top: 5px;
+}
+
+/* Honest note card */
+.about-note-card {
+  grid-column: 1 / -1;
+  background: rgba(16, 185, 129, 0.05);
+  border: 1px solid rgba(16, 185, 129, 0.18);
+  border-radius: var(--r);
+  padding: 16px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.note-icon {
+  font-size: 1rem;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.about-note-card p {
+  font-size: 0.85rem;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.about-note-card strong {
+  color: var(--accent-b);
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
