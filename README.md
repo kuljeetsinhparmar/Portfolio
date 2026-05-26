@@ -2,12 +2,13 @@
 
 A modern, responsive developer portfolio built with **React + Vite**, showcasing my projects, skills, and experience.
 
-🔗 **Live Site:** [portfolio-kuljeetsinhparmar.vercel.app](https://portfolio-kuljeetsinhparmar.vercel.app)
+🔗 **Live Site:** https://portfolio-taupe-eta-rhgrfm9mho.vercel.app
 
 ---
 
 ## 📸 Preview
 
+<img width="1701" height="832" alt="image" src="https://github.com/user-attachments/assets/e70d3bd0-cf7f-424a-93a9-046c00b1ba9d" />
 
 
 ---
@@ -87,7 +88,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser.
+Open [http://localhost:xxxx](http://localhost:xxxx) in your browser.
 
 ---
 
